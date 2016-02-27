@@ -135,3 +135,9 @@ $(call inherit-product-if-exists, vendor/nvidia/shield_common/consolemode-blobs.
 $(call inherit-product-if-exists, vendor/nvidia/shield_common/nvcamera-blobs.mk)
 
 $(call inherit-product, device/nvidia/shield-common/shield.mk)
+
+# set default USB configuration
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    sys.usb.config=mtp,adb \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0
