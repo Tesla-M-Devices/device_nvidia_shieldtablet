@@ -31,8 +31,8 @@
  },
  {
    "remote": "github",
-   "repository": "Shieldtablet-N/proprietary_vendor_nvidia",
+   "repository": "TheMuppets/proprietary_vendor_nvidia",
    "target_path": "vendor/nvidia",
-   "branch"     : "cm-14.1-restructure"
+   "branch"     : "cm-14.1"
  }
 ]
