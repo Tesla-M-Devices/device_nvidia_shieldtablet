@@ -34,7 +34,7 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-ea
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_KERNEL_SOURCE := kernel/nvidia/shield
 TARGET_KERNEL_CONFIG := lineageos_shieldtablet_defconfig
-BOARD_KERNEL_CMDLINE := androidboot.hardware=tn8 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := androidboot.hardware=tn8
 
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
